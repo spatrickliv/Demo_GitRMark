@@ -1,7 +1,7 @@
 ---
 title: "Test"
 author: "Sam Patrick"
-date: "29/03/21"
+date: "18/08/21"
 output: html_document
 ---
 
@@ -15,17 +15,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #Load packages
 
-
 ```{r}
-#library(lme4)
-#library(ggplot2)
-
+library(lme4)
+library(ggplot2)
 ```
 
 #Load in data in the format from SPI
 
 ```{r}
-
 brood<-read.table('./standard_format_Brood_data.txt', header = T)
-
 ```
